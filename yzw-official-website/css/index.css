@@ -1,0 +1,278 @@
+.h4-span span{
+	color: #79E5C1;
+}
+.public-h4{
+	padding-top: 50px;
+}
+/*导航渐变颜色*/
+.linear-banner1{
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#83E7C1',endColorStr='#46DCC2',gradientType='1');/*IE*/
+    background: -moz-linear-gradient( left,#83E7C1,#46DCC2);/*Firefox*/
+	background: -o-linear-gradient( left,#83E7C1,#46DCC2);/*Opera浏览器*/
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#83E7C1), to(#46DCC2));/*webkit内核的浏览器CSS渐变代码，如Chrome、Safari等*/
+}
+.linear-banner2{   
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#61EEED',endColorStr='#4BCDEE',gradientType='1');
+    background: -moz-linear-gradient( left,#61EEED,#4BCDEE);
+	background: -o-linear-gradient( left,#61EEED,#4BCDEE);
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#61EEED), to(#4BCDEE));
+}   
+.linear-banner3{   
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#45C2DC',endColorStr='#29C3EB',gradientType='1');
+    background: -moz-linear-gradient( left,#45C2DC,#29C3EB);
+	background: -o-linear-gradient( left,#45C2DC,#29C3EB);
+	background: -webkit-gradient(linear, 0% 0%, 100% 0%, from(#45C2DC), to(#29C3EB));
+}   
+/*导航渐变颜色*/
+
+/*产品亮点样式开始*/
+.index-product-highlight{
+	min-height: 300px;
+}
+.product-highlight-container{
+	margin: 0 auto;
+	width: 65%;
+}
+.product-highlight-header{
+	margin-top: 70px;
+}
+.product-highlight-body{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.header-line{
+	border-bottom: 3px #D0D0D0 solid;
+	position: relative;
+}
+.header-line-words{
+	position: absolute;
+	top: -26px;
+	left: 45%;
+}
+.body-context{
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.context1-words{
+	margin-left: 32px;
+}
+.context2-words{
+	margin-left: 25px;
+}
+.context3-words{
+	margin-left: 20px;
+}
+.context4-words{
+	margin-left: 25px;
+}
+.context5-words{
+	margin-left: 25px;
+}
+.context-words h5{
+	color: #79E5C1;
+	font-weight: 600;
+}
+.context-words p{
+	color: #555555;
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+/*产品亮点样式结束*/
+
+/*学车产品样式开始*/
+.index-car-product{
+	min-height: 400px;
+	background-color: #EFF2F2;
+}
+.car-product-body{
+	margin: 0 auto;
+	width: 65%;
+	margin-top: 30px;
+}
+.product-tab a{
+	color: #000000 !important;
+}
+.students{
+	float: left;
+	width: 370px;
+	position: relative;
+}
+.product-tab span{
+	padding-left: 46%;
+}
+.teachers{
+	float: right;
+	width: 370px;
+	margin-left: 30px;
+	position: relative;
+}
+.product-context ul{
+	display: none;
+}
+.hr-line{
+	background-color: #CECCCC;
+	border: none;
+	height: 3px;
+}
+.hr-active{
+	background-color: #79E5C1;
+	border: none;
+	height: 3px;
+}
+.triangle-up{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0; 
+	height: 0; 
+	border-left: 6px solid transparent; 
+	border-right: 6px solid transparent; 
+	border-bottom: 10px solid #CECCCC;
+}
+.triangle-up-active{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 0; 
+	height: 0; 
+	border-left: 6px solid transparent; 
+	border-right: 6px solid transparent; 
+	border-bottom: 10px solid #79E5C1; 
+}
+.product-student-content{
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+.product-student-content p{
+	padding: 20px 33px;
+}
+.product-teachers-content1{
+	margin-top: 30px;
+	width: 120px;
+	height: 150px;
+	float: left;
+}
+.product-teachers-content2{
+	margin-top: 30px;
+	width: 120px;
+	height: 150px;
+	float: left;
+}
+.teachers-icon{
+	width: 50%;
+}
+/*学车产品样式结束*/
+
+/*学车体验样式开始*/
+.index-learning-experience{
+	min-height: 540px;
+}
+.index-learning-experience .img-body-describe{
+	font-size: 0.9em;
+}
+.experience-container{
+	margin: 0 auto;
+	width: 60%;
+}
+.experience-body{
+	margin-top: 50px;
+}
+.body-left-container{
+	margin-left: 120px;
+	margin-top: 50px;
+}
+.experience-body-left1-img1-header{
+	width: 134px;
+	height: 49px;
+	background-image: url(../img/experience-zzyy.jpg);
+}
+.experience-body-left2{
+	margin-top: 30px;
+}
+.experience-body-left2-img2-header{
+	width: 131px;
+	height: 43px;
+	background-image: url(../img/experience-ydy.jpg);
+}
+.img-describe{
+	font-size: 0.9em;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+.experience-body-left1-img1-header p{
+	padding: 16px 35px;
+}
+.experience-body-left2-img2-header p{
+	padding: 11px 25px;
+}
+.body-right-container{
+	margin-left: 100px;
+}
+.experience-body-right1-img1-header{
+	width: 134px;
+	height: 49px;
+	background-image: url(../img/experience-zxbm.jpg);
+}
+.experience-body-right1-img1-header p{
+	padding: 12px 40px;
+}
+.experience-body-right2-img2{
+	margin-top: 50px;
+}
+.experience-body-right2-img2-header{
+	width: 143px;
+	height: 45px;
+	background-image: url(../img/experience-zzxz.jpg);
+}
+.experience-body-right2-img2-header p{
+	padding: 10px 40px;
+}
+.experience-body-right3-img3{
+	margin-top: 50px;
+}
+.experience-body-right3-img3-header{
+	width: 140px;
+	height: 42px;
+	background-image: url(../img/experience-pjjl.jpg);
+}
+.experience-body-right3-img3-header{
+	padding: 11px 40px;
+}
+/*学车体验样式结束*/
+
+/*联系我们样式开始*/
+.index-contact-us{
+	min-height: 400px;
+	background-color: #EFF2F2;
+}
+.contact-container{
+	margin: 0 auto;
+	width: 50%;
+}
+.contact-body{
+	margin-top: 80px;
+	margin-left: 15%;
+}
+.contact-img{
+	margin-right: 30px;
+}
+.contact-describe p{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 0.8em;
+}
+.contact-describe span{
+	margin-left: 10px;
+}
+.contact-describe .contact-body-img{
+	width: 15px;
+}
+.contact-img{
+	float: left;
+}
+
+/*联系我们样式结束*/
+

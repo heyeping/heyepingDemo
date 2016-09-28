@@ -1,0 +1,35 @@
+.lg-hide{
+	display: none;
+}
+.learningGuid-container{
+	margin: 0 auto;
+    width: 900px;
+    min-height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.learningGuid-title{
+	background-color: #F6F5F5;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.learningGuid-title span{
+	font-weight: 600;
+	color: #6ACBD8;
+	font-size: 2em;
+	padding: 25px 50px;
+}
+.learningGuid-title i{
+	float: right;
+	color: #6ACBD8;
+	font-size: 2em;
+	padding-right: 20px;
+	padding-top: 6px;
+}
+.lgCon-container{
+	margin: 20px 50px;
+}
+.lgCon-container p{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

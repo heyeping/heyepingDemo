@@ -1,0 +1,12 @@
+/*正文内容开始*/
+.about-container{
+	margin: 0 auto;
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.about-container p{
+	margin-top: 10px;
+}
+/*正文内容结束*/
+

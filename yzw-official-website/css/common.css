@@ -1,0 +1,185 @@
+.public-container{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    }
+    
+
+/*导航样式开始*/
+.nav { 
+	font-size: 1.2em; 
+	font-weight: lighter;
+}
+.nav .img { 
+	display: block; 
+	text-align: center; 
+	margin-bottom: 13px; 
+}
+.logo-img img{
+	max-width: 100px;
+	margin-top: 5px;
+}
+.navbar{
+	min-height: 70px;	
+	border-radius: 0px; 
+	border: none; 
+	margin-bottom: 0px; 
+	-webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+	-moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+	box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.navbar-brand span{
+	margin-left: 20px;
+	font-size: 0.8em;
+	color: #FFFFFF;
+}
+
+.navbar-right{
+	padding-top: 20px;
+}
+
+.navbar-right .actived{
+	color: #EA5404!important;
+	
+}
+.navbar-right hr{
+	border: #EA5404 1px solid;
+	margin-top: -7px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #FFFFFF;
+	font-weight: 600;
+	text-transform: uppercase;
+	-moz-transition: background-color .5s ease;
+	-o-transition: background-color .5s ease;
+	-webkit-transition: background-color .5s ease;
+	transition: background-color .5s ease;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .menu ul li a.current {
+	color: #EA5404;
+}
+
+.navbar>.container .navbar-brand { 
+	margin-left: 0; 
+}
+.navbar-collapse .navbar-nav.navbar-right:last-child { 
+	margin-right: 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { 
+	background-color: #EA5404; 
+}
+/*导航样式结束*/
+
+
+/*banner样式开始*/
+.carousel-inner .item img{
+	width: 100%;
+}
+.btn-download{
+	margin-left: 70%;
+	margin-bottom: 20%;
+}
+.btn-android{
+	background-color: #EA5504;
+	cursor: pointer;
+}
+.btn-ios{
+	cursor: pointer;
+	margin-top: 10px;
+	background-color: #707171;
+}
+.public-btn{
+	width: 120px;
+	height: 30px;
+	padding-top: 4px;
+	border-radius: 22px;
+}
+.download-code{
+	display: none;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 20%;
+	left: 70%;
+	width: 240px;
+	height: 140px;
+}
+.download-code p{
+	margin-left: 26%;
+}
+.download-code-android{
+	margin: 10px 10px;
+	float: left;
+}
+.code-img{
+	width: 100px;
+}
+.triangle-right{
+	position: absolute;
+	top: 35px;
+	left: 240px;
+	width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 20px solid white;
+    border-bottom: 8px solid transparent;
+}
+/*banner样式结束*/
+
+/*footer样式开始*/
+.public-footer{
+	min-height: 170px;
+	background-color: #304151;
+	color: #FFFFFF;
+	font-size: 0.9em;
+}
+.footer-container{
+	padding-top: 3%;
+	margin: 0 auto;
+	width: 60%;
+}
+.footer-img-logo .footer-img{
+	width: 8%;
+}
+.footer-top{
+	width: 60%;
+	margin-top: 4px;
+}
+.footer-top-left{
+	float: left;
+}
+.footer-top-right{
+	float: right;
+}
+.footer-top-right span{
+	margin-left: 5px;
+}
+.footer-container a:hover{
+	color: #EA5404;
+	text-decoration: none;
+}
+
+.footer-bottom{
+	text-align: center;
+}
+.back_to_top { 
+	margin-left: 75%;
+	background-color: #283147; 
+	width: 200px;
+	text-align: center; 
+	height: 41px; 
+	line-height: 41px; 
+}
+.back_to_top img{
+	width: 25px;
+}
+.goback a:visited{
+	color: white;
+}
+/*footer样式结束*/
